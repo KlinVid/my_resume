@@ -1,0 +1,334 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме стажера Front-End разработчика</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fd6b4fb5e1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body onload="timerId = setTimeout(timer, 4000);">
+
+    <header class="header">
+        <div class="container non__box-shadow">
+            <div class="header__inner">
+                <h1 class="header__title">Николаенко Станислав</h1>
+                <div class="site__nav">
+                    <nav class="nav">
+                        <ul class="nav__inner">
+                            <li class="nav__item">
+                                <a href="#about" class="nav__link">Обо мне</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#skills" class="nav__link">Навыки</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#education" class="nav__link">Образование</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#workExp" class="nav__link">Опыт работы</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#slider" class="nav__link">Портфолио</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contacts" class="nav__link">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <button onclick="navToggle()" class="nav-toggle" id="nav-toggle" type="button">
+                        <i class="fa-solid fa-bars" id="fa-bars"></i>
+                        <i class="fa-solid fa-xmark" id="fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="main">
+        <article class="article">
+            <div class="container">
+                <div class="intro">
+                    <div class="intro__img">
+                        <img src="images/photo_cv.jpg" alt="" class="main__img">
+                    </div>
+                    <div class="intro__text">
+                        <h1 class="intro__title">Николаенко Станислав</h1>
+                        <h2 class="intro__suptitle">Cтажер Front-End developer</h2>
+                    </div>
+                </div>
+            </div>
+
+            <section class="section" id="about">
+                <div class="container">
+                    <div class="section__inner">
+                        <h2 class="section__title">Обо мне</h2>
+                        <div class="about">
+                            <div class="about__inner">
+                                <div class="about__text">Закончил курсы "Основы разработки сайтов", "Современный Front-End c использованием JavaScript и HTML5". Прохожу стажировку в академии BELHARD. Параллельно самостоятельно учусь верстать одностраничные сайты.</div>
+                                <div class="about__text">За это время приобрел навыки  работы с: HTML5, CSS3, native JavaScript, медотология БЭМ, адаптивная верстка на flexbox, photoshop, GitHub. Также есть базовые знания по Angular, PHP, SQL.</div>
+                                <div class="about__text">Я организованный, целеустремленный, обучаемый, дисциплинированный, ответственный, коммуникабельный.</div>
+                            </div>
+                            <div class="about__info">
+                                <div class="about__item">
+                                    <div class="about__icon"><i class="fa-regular fa-calendar-days"></i></div>
+                                    <div class="about__title">Возраст:</div>
+                                    <div class="about__text"> 24</div>
+                                </div>
+                                <div class="about__item">
+                                    <div class="about__icon"><i class="fa-solid fa-envelope"></i></div>
+                                    <div class="about__title">Email:</div>
+                                    <div class="about__text"> stas.nik12@gmail.com</div>
+                                </div>
+                                <div class="about__item">
+                                    <div class="about__icon"><i class="fa-solid fa-phone"></i></div>
+                                    <div class="about__title">Телефон:</div>
+                                    <div class="about__text"> +375-25-721-05-51</div>
+                                </div>
+                                <div class="about__item">
+                                    <div class="about__icon"><i class="fa-solid fa-location-dot"></i></div>
+                                    <div class="about__title">Проживание:</div>
+                                    <div class="about__text"> Минск</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="skills" >
+                <div class="container">
+                    <div class="section__inner">
+                        <h2 class="section__title">Навыки</h2>
+                        <div class="skills">
+
+                            <div class="skills__column">
+
+                                <div class="skills__item">
+                                    <div class="skills__title">HTML</div>
+                                    <div class="skills__bar">
+                                        <div style="width: 66.66666%;" class="progress__bar ">Средне-продвинутый</div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__item">
+                                    <div class="skills__title">CSS</div>
+                                    <div class="skills__bar">
+                                        <div style="width: 66.66666%;" class="progress__bar ">Средне-продвинутый</div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__item">
+                                    <div class="skills__title">JavaScript</div>
+                                    <div class="skills__bar">
+                                        <div style="width: 50%;" class="progress__bar ">Средний</div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__item">
+                                    <div class="skills__title">Adobe Photoshop</div>
+                                    <div class="skills__bar">
+                                        <div style="width: 66.66666%;" class="progress__bar ">Средне-продвинутый</div>   
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="skills__column">
+
+                                <div class="skills__item">
+                                    <div class="skills__title">Английский</div>
+                                    <div class="skills__bar">
+                                        <div style="width: 33.33333%;" class="progress__bar ">Элементарный</div>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="skills__item">
+                                    <div class="skills__title">Angular</div>
+                                    <div class="skills__bar">
+                                        <div style="width: 16.66666%;" class="progress__bar ">Начальный</div>   
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__item">
+                                    <div class="skills__title">PHP</div>
+                                    <div class="skills__bar">
+                                        <div style="width: 16.66666%;" class="progress__bar ">Начальный</div>   
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__item">
+                                    <div class="skills__title">SQL</div>
+                                    <div class="skills__bar">
+                                        <div style="width: 16.66666%;" class="progress__bar ">Начальный</div>   
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="education">
+                <div class="container">
+                    <div class="section__inner">
+                        <h2 class="section__title">Образование</h2>
+                        <div class="list education">
+
+                            <div class="list__item education__item">
+                                <div class="list__title education__title">
+                                    Академия BELHARD
+                                </div>
+                                <div class="list__year education__year">2023</div>
+                                <div class="list__text education__text">Современный Front-End c использованием JavaScript и HTML5</div>
+                            </div>
+                            
+                            <div class="list__item education__item">
+                                <div class="list__title education__title">
+                                    Академия BELHARD
+                                </div>
+                                <div class="list__year education__year">2022</div>
+                                <div class="list__text education__text">Основы разработки сайтов</div>
+                            </div>
+                            
+                            <div class="list__item education__item">
+                                <div class="list__title education__title">
+                                    Белорусский государственный университет информатики и радиоэлектроники
+                                </div>
+                                <div class="list__year education__year">2020</div>
+                                <div class="list__text education__text">Нанотехнологии и наноматериалы в электронике</div>
+                            </div>
+                            
+                            <div class="list__item education__item">
+                                <div class="list__title education__title">
+                                    School of english BELHARD
+                                </div>
+                                <div class="list__year education__year">2017</div>
+                                <div class="list__text education__text">Spoken english language course</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="workExp">
+                <div class="container">
+                    <div class="section__inner">
+                        <h2 class="section__title">Опыт работы</h2>
+                        <div class="list workExp">
+
+                            <div class="list__item workExp__item">
+                                <div class="list__title workExp__title">
+                                    ГУО "Средняя школа №160"
+                                </div>
+                                <div class="list__year workExp__year">2023 - по настоящее время</div>
+                                <div class="list__text workExp__text">Инженер-программист</div>
+                            </div>
+
+                            <div class="list__item workExp__item">
+                                <div class="list__title workExp__title">
+                                    Стажировка и обучение в академии BELHARD
+                                </div>
+                                <div class="list__year workExp__year">2022 - по настоящее время</div>
+                                <div class="list__text workExp__text">Front-End developer</div>
+                            </div>
+                            
+                            <div class="list__item workExp__item">
+                                <div class="list__title workExp__title">
+                                    ОАО "Интеграл"
+                                </div>
+                                <div class="list__year workExp__year">2020 - 2022</div>
+                                <div class="list__text workExp__text">Инженер-технолог</div>
+                            </div>
+                            
+                            <div class="list__item workExp__item">
+                                <div class="list__title workExp__title">
+                                    ЗАО "АТЛАНТ"
+                                </div>
+                                <div class="list__year workExp__year">2019</div>
+                                <div class="list__text workExp__text">Cлесарь-сборщик бытовой техники</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="slider">
+                <div class="container">
+                    <div class="section__inner">
+                        <h2 class="section__title center">Портфолио</h2>
+                        <div class="slider"  >
+                            <div class="slider__inner">
+                                <a href="https://klinvid.github.io/MoGo/" target="_blank">
+                                    <img src="images/slider/mogo.png" id="lastClone" alt="" class="img__slider" id="img__slider">
+                                </a>
+                                <a href="https://klinvid.github.io/rent-car/" target="_blank"> 
+                                    <img src="images/slider/rent-car.png" alt="" class="img__slider" id="img__slider">
+                                </a>
+                                <a href="https://klinvid.github.io/Trekking/" target="_blank">
+                                    <img src="images/slider/trekking.png" alt="" class="img__slider" id="img__slider">
+                                </a>   
+                                <a href="https://klinvid.github.io/MoGo/" target="_blank">
+                                    <img src="images/slider/mogo.png" alt="" class="img__slider" id="img__slider">
+                                </a>
+                                <a href="https://klinvid.github.io/rent-car/" target="_blank">
+                                    <img src="images/slider/rent-car.png" id="firstClone" alt="" class="img__slider" id="img__slider">
+                                </a>
+                            </div>
+                            
+                            <div class="click" id="before">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </div>
+                    
+                            <div class="click" id="next">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <div class="container non__box-shadow">
+            <div class="footer__inner">
+                <h2 class="footer__title">Николаенко Станислав</h2>
+                <div class="footer__nav">
+                    <nav class="navigator">
+                        <a target="_blank" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSMVJFbDdZqJSKcNtxBfNmFWCDjShzLSnfxnxCpQcKnlJjZXcCCfcvrNFTPRKFDLbVwfjvKr" class="footer__link">
+                            <i class="fa-solid fa-envelope"></i>
+                        </a>
+                        <a target="_blank" href="https://www.linkedin.com/in/%D1%81%D1%82%D0%B0%D0%BD%D0%B8%D1%81%D0%BB%D0%B0%D0%B2-%D0%BD%D0%B8%D0%BA%D0%BE%D0%BB%D0%B0%D0%B5%D0%BD%D0%BA%D0%BE-b78495257/" class="footer__link">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a target="_blank" href="https://t.me/nik_stn" class="footer__link">
+                            <i class="fa-brands fa-telegram"></i>
+                        </a>
+                        <a target="_blank" href="viber://chat?number=%2B375257210551"" class="footer__link">
+                            <i class="fa-brands fa-viber"></i>
+                        </a>
+                        <a target="_blank" href="https://github.com/KlinVid?tab=repositories" class="footer__link">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </nav>
+                </div>
+                <div class="copyright">
+                    © All rights reserved 
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="javascript/main.js"></script>
+</body>
+</html>
